@@ -48,25 +48,73 @@ Version control & text editors (Vim)
 Lesson 4: Scripting & Troubleshooting
 -------------------------------------
 
+.. note:: week 1, 1/9/2014
+
 - slides: :doc:`troubleshooting`
 
-Lesson 5: Filesystems
----------------------
+- log files
+- git bisect, git log, git blame
+- scientific method (small changes)
 
-:doc:`filesystems`
+Lesson 5: Services and deploying a web app
+------------------------------------------
 
-Lesson 6: The boot process
---------------------------
+.. note:: pwnguin pulls talk from harvard extension web dev class (please
+          link)
+    1/16/2014
 
-:doc:`boot_process`
+- services, init scripts
+- we'll provide a simple web app (hello world selector)
+- ops: more about HTTP?
+- languages
+    - hello world
+    - "single-serving" web sites
 
-Lesson 7: Working with Remote Systems
--------------------------------------
+Lesson 6: Boot and the filesystem hierarchy, and more app dev
+-------------------------------------------------------------
 
-:doc:`remote_systems`
+.. note:: more ops-focused
+    1/30/2014
+
+- grub, filesystem stuff based roughly on Frostsnow's talk
+- basics of kernel and differences between virtualization/physical
+  (the picture that kevin draws)
+- CS311 in a very small nutshell
+
+- build a piece of web app to perform systems monitoring based on ^^
+
+Lesson 7: integration: connecting app to DB
+-------------------------------------------
+
+.. note:: more dev-focused
+    2/6/2014
+
+- explain what DBs are and why we need them (transactions, relations, indices,
+  performance)
+- set up DB instance
+- connect app to DB
+- show manual queries for doing things
+- show what happens when app does things
+- teach mysql & postgres like vim & emacs (only install _____ right now)
 
 Lesson 8: Security & Authentication
 -----------------------------------
+
+.. note:: 2/13/2014
+
+- key pairs
+- ssh keys (passphrase vs none; automation; authorized_keys)
+- GPG keys, signing stuff, publishing to keyservers
+- certificates (SSL/TLS)
+
+- web app security
+    - parameterize or sanitize inputs
+    - SQL injection
+    - XSS, csrf tokens
+    - https://www.owasp.org/index.php/Top_10_2013-Top_10
+    - filesystem & user permissions (remember lesson 2?)
+
+- mention social engineering type attacks
 
 :doc:`security_auth`
 
@@ -81,8 +129,12 @@ Lesson 10: Services
 Note: This will take several weeks, probably one week per service that we'll
 study
 
+
+
 Lesson 11: Configuration Management & Cron
 ------------------------------------------
+
+.. note:: 3/6/2014
 
 :doc:`config_mgmt_cron`
 
