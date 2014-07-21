@@ -374,6 +374,7 @@ A Client
 ========
 
 .. note:: Emily switches to terminal and shows example
+.. note:: You won't be able to use screen or irssi till we install them in the next lesson
 
 * use irssi in screen
 
